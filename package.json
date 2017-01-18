@@ -1,0 +1,26 @@
+{
+  "name": "day-of-crud",
+  "version": "1.0.0",
+  "description": "# day-of-crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raukusbaukus/day-of-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raukusbaukus/day-of-crud/issues"
+  },
+  "homepage": "https://github.com/raukusbaukus/day-of-crud#readme",
+  "dependencies": {
+    "knex": "^0.12.6",
+    "pg": "^6.1.2"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
