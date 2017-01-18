@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments()
     table.text("name")
     table.integer("quantity")
-    table.timestamps() // do i need true, true as arguments?
+    table.timestamps(true, true)
   })
 };
 
